@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACM1513-551-2PL-TLHF
+D Common Mode Chokes / Filters 550ohms 10A 0.004ohm Common Mode Filter
+K
+F https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_power_acm1513_en.pdf
+$ENDCMP
+#
+#End Doc Library

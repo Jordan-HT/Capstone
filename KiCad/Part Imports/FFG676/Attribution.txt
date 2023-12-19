@@ -1,0 +1,2 @@
+Model "Xilinx BGA-FFG676" by Andrey Sviyazov
+https://www.linkedin.com/in/andrey-sviyazov-483ab856/

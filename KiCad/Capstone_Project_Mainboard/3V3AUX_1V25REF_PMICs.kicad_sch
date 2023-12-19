@@ -1,0 +1,18 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a79f0cd8-f1ef-4aaa-8128-342c853c279e)
+
+  (paper "A4")
+
+  (title_block
+    (title "3.3V Standby/Aux & 1.25V Reference PMICs")
+    (date "2023-12-18")
+    (rev "A")
+    (company "Jordan Harris-Toovy")
+    (comment 1 "Mainboard for Capstone Project at Oregon Tech")
+  )
+
+  (lib_symbols
+  )
+
+)

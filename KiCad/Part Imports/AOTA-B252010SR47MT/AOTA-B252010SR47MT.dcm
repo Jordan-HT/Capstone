@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AOTA-B252010SR47MT
+D IND 0.47uH 5.7A 20
+K
+F https://abracon.com/datasheets/AOTA-B252010S.pdf
+$ENDCMP
+#
+#End Doc Library

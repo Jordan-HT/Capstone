@@ -1,0 +1,5 @@
+The recommended power up seq in DS182 (down is reverse) for core is:  VCCINT → VCCBRAM → VCCAUX → VCCAUX_IO → VCCO
+Notes: if  VCCINT and VCCBRAM are at the same voltage, they can go together. If VCCAUX, VCCAUX_IO, and VCCO are at the same voltage, they can also go together.
+
+The recommended power up seq in DS182 (down is reverse) for GTX is:VCCINT → VMGTAVCC → VMGTAVTT or VMGTAVCC → VCCINT → VMGTAVTT. VMGTAVTT must be last.
+

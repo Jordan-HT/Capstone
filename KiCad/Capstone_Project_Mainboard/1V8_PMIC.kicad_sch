@@ -1,0 +1,18 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 59928c54-99e9-485c-bc56-08f15c7ea19f)
+
+  (paper "A4")
+
+  (title_block
+    (title "1.8V PMIC")
+    (date "2023-12-18")
+    (rev "A")
+    (company "Jordan Harris-Toovy")
+    (comment 1 "Mainboard for Capstone Project at Oregon Tech")
+  )
+
+  (lib_symbols
+  )
+
+)

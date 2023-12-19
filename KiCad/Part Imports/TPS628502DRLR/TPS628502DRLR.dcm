@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS628502DRLR
+D Switching Voltage Regulators 2.7-V to 6-V, 2-A, adjustable-frequency, step-down converter in SOT583 package
+K
+F https://www.ti.com/lit/gpn/tps628502
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,22 @@
+ON FPGA:
+	HP - BANKS 32,33,34 - 150 pins (inc vrefs)
+	HR - BANKS 12,13,14,15,16 - 250 pins (inc vrefs)
+	CONF (HR) - BANK 0 - 21 pins
+	GTX - BANKS 115,116 - 42 pins
+	PWR - NA - 93 pins
+	GND - NA - 120 pins
+
+Bank notes:
+For HP banks, the two IO_XX_VR[P/N]_XX pins must not be used for sginal as they are needed for term. For safety, reserve 2 pins on ALL banks (inc. HR).
+Therefore, each bank only has 48 available pins (assuming you use internal Vrefs), but for high-freq serial operations, the clock TX/RX pairs MUST be local to the same bank. See UG472 for details.
+Each bank has 4 DPs of clock capable pins - 2 MRCCs (MultiRegion Clock Capable) and 2 SRCCs (Single Region Clock Capable). Both act in the same clock region (SRCCs preferred for this) but MRCCs can act in adjacent regions and connect to the global clock backbone.
+
+
+AD/TI ADC Notes:
+For 14b 250 MS/s, typically uses DDR LVDS 7DP + CLK per ADC (500Mb/s, 1Gb/s per DP)
+For 16b 250 MS/s, typically uses DDR LVDS 8DP + CLK per ADC (500Mb/s, 1Gb/s per DP)
+Most (all?) use 1.8V digital supplies. Control is sometimes 3.3V and sometimes 1.8V.
+Out-of-range output is sometimes DP, but often single-ended.
+
+Renesas ADC Notes:
+Sym to AD/TI when in DDR mode. Otherwise, uses 14x SDR DPs for 14b 250 MS/s. 16b 250 MS/s is same as AD/TI.

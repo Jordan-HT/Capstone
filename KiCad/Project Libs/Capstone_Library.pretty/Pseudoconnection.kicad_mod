@@ -1,0 +1,17 @@
+(footprint "Pseudoconnection" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0 1 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp f9aa352e-1b8c-490d-b655-603d254ccea1)
+  )
+  (fp_text value "Pseudoconnection" (at 0 2 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f7abc101-8877-4526-ac91-f2bfb6785b9a)
+  )
+  (fp_text user "${REFERENCE}" (at 0 3.5 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp deac4125-3231-4778-ad90-d4c4ae894ec6)
+  )
+  (pad "1" smd roundrect (at -0.6 0) (size 0.8 0.3) (drill (offset 0.3 0)) (layers "F.Cu") (roundrect_rratio 0.25) (tstamp 577a471d-3fa7-4cc1-9b4e-eb096c4dca1f))
+  (pad "2" smd roundrect (at 0.6 0) (size 0.8 0.3) (drill (offset -0.3 0)) (layers "F.Cu") (roundrect_rratio 0.25) (tstamp 39ca17ac-ab5e-451d-b867-7f9366932e33))
+)

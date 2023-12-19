@@ -1,0 +1,133 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6eda7ca5-0c45-42b1-905b-ff38fc3c0c32)
+
+  (paper "A4")
+
+  (title_block
+    (title "TBD ")
+    (date "2023-12-18")
+    (rev "A")
+    (company "Jordan Harris-Toovy")
+    (comment 1 "Mainboard for Capstone Project at Oregon Tech")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "TODO:\nPut package delay into FPGA footprint\nsetup netclasses, trace/via DC/SE/DP params"
+    (at 114.3 116.84 0)
+    (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
+    (uuid 1681a10b-77dd-4622-8dea-ea11b5807b38)
+  )
+  (text "FPGA FLASH" (at 179.07 31.75 0)
+    (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
+    (uuid 291059c0-92a8-43dc-93a4-219bdc3f9c82)
+  )
+  (text "SEARAY 10x40\n  Conector B" (at 137.16 34.29 0)
+    (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
+    (uuid 47f12d38-6611-4fc4-9329-7d3ba72c3eb1)
+  )
+  (text "FPGA" (at 67.31 31.75 0)
+    (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
+    (uuid 4bc6703b-c720-473a-9bda-99fe05562117)
+  )
+  (text "Power Supplies" (at 19.05 31.75 0)
+    (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
+    (uuid a32ea137-87b0-4633-8182-0a47e69b751e)
+  )
+  (text "SEARAY 10x40\n  Conector A" (at 97.79 34.29 0)
+    (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
+    (uuid b63b7ae9-8be8-4e77-8641-8017f8215dea)
+  )
+
+  (sheet (at 57.15 16.51) (size 31.75 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 103dd593-8cc7-4864-bf68-ba5bfea4dae9)
+    (property "Sheetname" "FPGA" (at 57.15 15.7984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Sheetfile" "FPGA_Main.kicad_sch" (at 57.15 45.0346 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "Capstone_Project_Mainboard"
+        (path "/6eda7ca5-0c45-42b1-905b-ff38fc3c0c32" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 96.52 16.51) (size 31.75 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 59a6cd1b-c9ad-40fe-bd9d-b7036f84d899)
+    (property "Sheetname" "SEARAY Connector A" (at 96.52 15.7984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Sheetfile" "SEARAY_Connector_A.kicad_sch" (at 96.52 45.0346 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "Capstone_Project_Mainboard"
+        (path "/6eda7ca5-0c45-42b1-905b-ff38fc3c0c32" (page "16"))
+      )
+    )
+  )
+
+  (sheet (at 175.26 16.51) (size 31.75 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d0c54e1c-dee1-46c1-8777-36a65d67b85d)
+    (property "Sheetname" "FPGA FLASH" (at 175.26 15.7984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Sheetfile" "FPGA_FLASH.kicad_sch" (at 175.26 45.0346 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "Capstone_Project_Mainboard"
+        (path "/6eda7ca5-0c45-42b1-905b-ff38fc3c0c32" (page "18"))
+      )
+    )
+  )
+
+  (sheet (at 17.78 16.51) (size 31.75 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid da5ae78c-4828-4638-bd30-ac06d238eac7)
+    (property "Sheetname" "Power Supplies" (at 17.78 15.7984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Sheetfile" "Power_Supplies.kicad_sch" (at 17.78 45.0346 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "Capstone_Project_Mainboard"
+        (path "/6eda7ca5-0c45-42b1-905b-ff38fc3c0c32" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 135.89 16.51) (size 31.75 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid df563009-419e-483b-8e27-517aba526028)
+    (property "Sheetname" "SEARAY Connector B" (at 135.89 15.7984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Sheetfile" "SEARAY_Connector_B.kicad_sch" (at 135.89 45.0346 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "Capstone_Project_Mainboard"
+        (path "/6eda7ca5-0c45-42b1-905b-ff38fc3c0c32" (page "17"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
