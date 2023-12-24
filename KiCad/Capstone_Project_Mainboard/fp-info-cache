@@ -1,4 +1,4 @@
-22492440295772487
+22494199529892122
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6353,8 +6353,8 @@ ACA-SPI-004-K01
 
 
 0
-16
-16
+8
+8
 Capstone_Library
 ACA-SPI-006-K01
 
@@ -6369,6 +6369,13 @@ Filter
 0
 4
 4
+Capstone_Library
+AMPHENOL_U95T151100A
+
+
+0
+50
+50
 Capstone_Library
 CLT3217N
 CLT32-17N
@@ -6482,7 +6489,7 @@ Integrated Circuit
 19
 11
 Capstone_Library
-Xilinx_FFG676_MOD
+Xilinx_FFG676_K7_160T
 Kintex-7 and Zynq-7000 BGA, 26x26 grid, 27x27mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=292, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=88, NSMD pad definition Appendix A
 BGA 676 1 FF676 FFG676 FFV676
 0

@@ -6,7 +6,7 @@
 
   (title_block
     (title "FPGA Banks 115 & 116 (GTX) I/O")
-    (date "2023-12-18")
+    (date "2023-12-22")
     (rev "A")
     (company "Jordan Harris-Toovy")
     (comment 1 "Mainboard for Capstone Project at Oregon Tech")
@@ -3049,6 +3049,10 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 185 1 8 1)) (justify left bottom))
     (uuid 85b79620-6fa6-45a0-b122-3a497fdba3b8)
   )
+  (text "<- Add ref clk here" (at 140.97 72.39 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
+    (uuid e3357df7-7be4-49c1-b76f-401404877e16)
+  )
 
   (symbol (lib_id "Capstone_Library:XC7K160T-FFG676_MIB") (at 109.22 22.86 0) (unit 10)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
@@ -3059,7 +3063,7 @@
     (property "Value" "XC7K160T-FFG676_MIB" (at 130.81 21.59 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capstone_Library:Xilinx_FFG676_MOD" (at 107.95 19.05 0)
+    (property "Footprint" "Capstone_Library:Xilinx_FFG676_K7_160T" (at 107.95 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 107.95 22.86 0)
@@ -3787,7 +3791,7 @@
     (property "Value" "XC7K160T-FFG676_MIB" (at 130.81 91.44 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capstone_Library:Xilinx_FFG676_MOD" (at 107.95 88.9 0)
+    (property "Footprint" "Capstone_Library:Xilinx_FFG676_K7_160T" (at 107.95 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 107.95 92.71 0)

@@ -539,6 +539,10 @@
     [
       "d0c54e1c-dee1-46c1-8777-36a65d67b85d",
       "FPGA FLASH"
+    ],
+    [
+      "c19a9b60-68d0-41bb-9cb8-6b4363a86497",
+      "QSFP+"
     ]
   ],
   "text_variables": {}

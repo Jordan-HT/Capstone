@@ -6,7 +6,7 @@
 
   (title_block
     (title "3.3V Standby/Aux & 1.25V Reference PMICs")
-    (date "2023-12-18")
+    (date "2023-12-22")
     (rev "A")
     (company "Jordan Harris-Toovy")
     (comment 1 "Mainboard for Capstone Project at Oregon Tech")

@@ -6,7 +6,7 @@
 
   (title_block
     (title "FPGA Bank 0 (Configuration) I/O")
-    (date "2023-12-18")
+    (date "2023-12-22")
     (rev "A")
     (company "Jordan Harris-Toovy")
     (comment 1 "Mainboard for Capstone Project at Oregon Tech")
@@ -3415,7 +3415,7 @@
     (property "Value" "XC7K160T-FFG676_MIB" (at 125.73 59.69 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capstone_Library:Xilinx_FFG676_MOD" (at 102.87 57.15 0)
+    (property "Footprint" "Capstone_Library:Xilinx_FFG676_K7_160T" (at 102.87 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 102.87 60.96 0)

@@ -6,7 +6,7 @@
 
   (title_block
     (title "TBD ")
-    (date "2023-12-18")
+    (date "2023-12-22")
     (rev "A")
     (company "Jordan Harris-Toovy")
     (comment 1 "Mainboard for Capstone Project at Oregon Tech")
@@ -16,8 +16,7 @@
   )
 
 
-  (text "TODO:\nPut package delay into FPGA footprint\nsetup netclasses, trace/via DC/SE/DP params"
-    (at 114.3 116.84 0)
+  (text "TODO:\nsetup netclasses, trace/via DC/SE/DP params" (at 114.3 116.84 0)
     (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
     (uuid 1681a10b-77dd-4622-8dea-ea11b5807b38)
   )
@@ -33,9 +32,18 @@
     (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
     (uuid 4bc6703b-c720-473a-9bda-99fe05562117)
   )
+  (text "QSFP+" (at 223.52 31.75 0)
+    (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
+    (uuid 8a5915f9-cf40-4c21-ba44-b0265206443e)
+  )
   (text "Power Supplies" (at 19.05 31.75 0)
     (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
     (uuid a32ea137-87b0-4633-8182-0a47e69b751e)
+  )
+  (text "Add DSC1123BI5-156.2500T (or sim. part if not level-compatable)\nas ref input for 10.3125Gb/s SFF-8431 (or 10GBASE-R)\nUse ZL40215LDF1 for fanout if unified clock input is not aval\n\nCheck page 33+ on UG476 and physical pins"
+    (at 39.37 69.85 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b0b95c59-16b3-4aa7-926b-873370d09a61)
   )
   (text "SEARAY 10x40\n  Conector A" (at 97.79 34.29 0)
     (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
@@ -72,6 +80,23 @@
     (instances
       (project "Capstone_Project_Mainboard"
         (path "/6eda7ca5-0c45-42b1-905b-ff38fc3c0c32" (page "16"))
+      )
+    )
+  )
+
+  (sheet (at 214.63 16.51) (size 31.75 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c19a9b60-68d0-41bb-9cb8-6b4363a86497)
+    (property "Sheetname" "QSFP+" (at 214.63 15.7984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Sheetfile" "QSFP2.kicad_sch" (at 214.63 45.0346 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "Capstone_Project_Mainboard"
+        (path "/6eda7ca5-0c45-42b1-905b-ff38fc3c0c32" (page "19"))
       )
     )
   )
