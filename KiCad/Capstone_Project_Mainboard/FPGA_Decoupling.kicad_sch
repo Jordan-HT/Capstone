@@ -6,7 +6,7 @@
 
   (title_block
     (title "FPGA Decoupling Capacitors")
-    (date "2023-12-22")
+    (date "2023-12-26")
     (rev "A")
     (company "Jordan Harris-Toovy")
     (comment 1 "Mainboard for Capstone Project at Oregon Tech")
