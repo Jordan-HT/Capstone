@@ -1,4 +1,4 @@
-22502717056680601
+22490738232273929
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6342,26 +6342,12 @@ Fuse
 2
 2
 Capstone_Library
-0878321420
-
-878321420 
-0
-14
-14
-Capstone_Library
 ABRACON_Ind_0907_(2520 metric)
 AOTA-B2
 Inductor
 0
 2
 2
-Capstone_Library
-ACA-SPI-004-K01
-
-
-0
-8
-8
 Capstone_Library
 ACA-SPI-006-K01
 
@@ -6376,13 +6362,6 @@ Filter
 0
 4
 4
-Capstone_Library
-AMPHENOL_U95T151100A
-
-
-0
-50
-50
 Capstone_Library
 CLT3217N
 CLT32-17N
@@ -6405,13 +6384,6 @@ DPAK TO-252 DPAK-3 TO-252-3 SOT-428
 7
 3
 Capstone_Library
-Microchip_6-VDFN
-
-
-0
-6
-6
-Capstone_Library
 PJ-082BH
 
 PJ-082BH 
@@ -6426,33 +6398,12 @@ Pseudoconnection
 2
 2
 Capstone_Library
-QFN50P400X400X100-25N-D
-qfn-24
-Integrated Circuit
-0
-25
-25
-Capstone_Library
 REF35xxxQDBVR
 REF35125QDBVR
 Integrated Circuit
 0
 6
 6
-Capstone_Library
-RGV16_16-VQFN
-
-PCA9546ARGVR 
-0
-21
-18
-Capstone_Library
-R_0402_Dual_Conf_HandSolder
-Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor handsolder
-0
-3
-3
 Capstone_Library
 SAMTEC_ASP-134486-01
 

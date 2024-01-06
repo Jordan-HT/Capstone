@@ -515,7 +515,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Capstone_Library"
+    ]
   },
   "meta": {
     "filename": "Capstone_Project_Mainboard.kicad_pro",
