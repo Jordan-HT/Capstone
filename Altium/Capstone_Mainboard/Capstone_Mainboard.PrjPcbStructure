@@ -1,9 +1,9 @@
-Record=TopLevelDocument|FileName=Configuration_JTAG.SchDoc|SheetNumber=6
+Record=TopLevelDocument|FileName=Configuration_JTAG.SchDoc|SheetNumber=7
 Record=NoMainPathDocument|SourceDocument=Configuration_JTAG.SchDoc|FileName=FPGA_FLASH.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Configuration_JTAG.SchDoc|FileName=FPGA_GTXqs.SchDoc|SheetNumber=9
-Record=NoMainPathDocument|SourceDocument=Configuration_JTAG.SchDoc|FileName=FPGA_HPCC_A_BG33-34-35.SchDoc|SheetNumber=8
-Record=NoMainPathDocument|SourceDocument=Configuration_JTAG.SchDoc|FileName=FPGA_HPCC_B_BG13-15-16.SchDoc|SheetNumber=7
-Record=NoMainPathDocument|SourceDocument=Configuration_JTAG.SchDoc|FileName=FPGA_Power.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=Configuration_JTAG.SchDoc|FileName=FPGA_GTXqs.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=Configuration_JTAG.SchDoc|FileName=FPGA_HPCC_A_BG33-34-35.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=Configuration_JTAG.SchDoc|FileName=FPGA_HPCC_B_BG13-15-16.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=Configuration_JTAG.SchDoc|FileName=FPGA_Power.SchDoc|SheetNumber=6
 Record=NoMainPathDocument|SourceDocument=Configuration_JTAG.SchDoc|FileName=HPCC_Connector_A.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=Configuration_JTAG.SchDoc|FileName=HPCC_Connector_B.SchDoc|SheetNumber=5
 Record=NoMainPathDocument|SourceDocument=Configuration_JTAG.SchDoc|FileName=I2C_Switch_I2C_EEPROM.SchDoc|SheetNumber=2

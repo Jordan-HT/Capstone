@@ -1,4 +1,8 @@
+Approximations:
+
 7628/S1000-2M	Dk= 4.6
 3313/2313	Dk= 4.05
 2116		Dk= 4.25
 Core		Dk= 4.6
+
+Loss tangent of all ≈ 0.02
