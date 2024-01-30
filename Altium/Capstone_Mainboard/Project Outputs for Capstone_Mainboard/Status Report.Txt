@@ -1,0 +1,11 @@
+Output: PADS ASCII Netlist
+Type  : PADSNetlist
+From  : Project [Capstone_Mainboard.PrjPcb]
+   Generated File[HPCC_Connector_B.NET]
+   Generated File[HPCC_Connector_B.PRT]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 11:04:11 PM On 1/29/2024
