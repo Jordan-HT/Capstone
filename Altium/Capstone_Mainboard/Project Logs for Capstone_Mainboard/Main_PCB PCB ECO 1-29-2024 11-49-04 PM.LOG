@@ -1,0 +1,10 @@
+Added Class: Name=Configuration_JTAG_Nets
+Added Class: Name=FPGA_FLASH_Nets
+Added Class: Name=FPGA_GTXqs_Nets
+Added Class: Name=FPGA_HPCC_A_BG33-34-35_Nets
+Added Class: Name=FPGA_HPCC_B_BG13-15-16_Nets
+Added Class: Name=FPGA_Power_Nets
+Added Class: Name=HPCC_Connector_A_Nets
+Added Class: Name=HPCC_Connector_B_Nets
+Added Class: Name=I2C_Switch_I2C_EEPROM_Nets
+Added Class: Name=QSFP_Cages_Connectors_Nets

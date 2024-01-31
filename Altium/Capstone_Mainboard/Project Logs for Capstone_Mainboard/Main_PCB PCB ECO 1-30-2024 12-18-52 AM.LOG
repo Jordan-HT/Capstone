@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=HPCC_A_P01_P Pin=J3-B20
+Removed Pin From Net: NetName=HPCC_A_P01_N Pin=J3-B21
+Added Pin To Net: NetName=HPCC_A_L01_N Pin=J3-B21
+Added Net: Name=HPCC_A_L01_N
+Added Pin To Net: NetName=HPCC_A_L01_P Pin=J3-B20
+Added Net: Name=HPCC_A_L01_P
