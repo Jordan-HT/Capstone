@@ -374,6 +374,30 @@
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="FPGA_FLASH_MOSI/D0" ConstraintNetId="a0c804b8-6122-420d-9599-f8f47450cd6f" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="FPGA_FLASH_MISO/D1" ConstraintNetId="6e3f2c43-8452-45c3-910c-e1b0d01ec203" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="FPGA_FLASH_H\O\L\D\/D3" ConstraintNetId="8725e783-9a00-4d18-a1f4-4e0b9499e8aa" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="GND" ConstraintNetId="107b73c2-31d2-42a3-a62b-3a2bb9b6f5ee" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="3V3" ConstraintNetId="97f32eeb-cc10-4ffb-b90e-0339ae5fb116" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="3V3AUX" ConstraintNetId="df3271e7-3c7d-40af-bc9a-5b8b811987a9" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="1V8" ConstraintNetId="cda1f049-da48-4ec7-937d-dd1965ac50a8" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="1V2" ConstraintNetId="b02d6246-9525-4ba9-a3fa-bf421a482119" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="1V0" ConstraintNetId="487135d5-a91d-4076-8fbc-ff26cb5fe7fb" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="EEPROM_I2C_SCL" ConstraintNetId="1ef9df04-6f54-4f20-a631-772628bc3a68" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="EEPROM_I2C_SDA" ConstraintNetId="3a738891-c1af-41ea-8a60-9489328c2dd1" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="FGPA_I2C_SCL" ConstraintNetId="4a99facf-f50b-41a6-89fe-ee9c8d333290" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="FGPA_I2C_SDA" ConstraintNetId="eb978303-2eb3-4067-b9d7-c3528bdeeb14" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="FPGA_I2C_EXT0_SCL" ConstraintNetId="dda325d9-11c4-47a5-a053-0e32984572b5" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="FPGA_I2C_EXT0_SDA" ConstraintNetId="e1702bc1-6bff-41bc-acf8-90d97ad121ef" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="FPGA_I2C_EXT1_SCL" ConstraintNetId="8b6f4d74-f341-4805-8673-bcbd34799b6e" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="FPGA_I2C_EXT1_SDA" ConstraintNetId="37a862a8-5e90-4c27-af01-9a7964f28fc7" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="HPCC_A_I2C_SCL" ConstraintNetId="56caa868-b591-4504-bc68-b97e3864e5a2" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="HPCC_A_I2C_SDA" ConstraintNetId="df20febc-c32e-4741-813c-9e29ab4c7694" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="HPCC_B_I2C_SCL" ConstraintNetId="84cf8971-6a8d-4abb-9839-7ce8cea682be" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="HPCC_B_I2C_SDA" ConstraintNetId="62e4afed-feb5-411b-ab5a-24a65bcb654f" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="MC_ALT_I2C_SCL" ConstraintNetId="27e92350-c2d5-4bab-968e-2d0147249253" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="MC_ALT_I2C_SDA" ConstraintNetId="728a75cb-ae62-49b7-ade4-ad2afe9e0b81" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="QSFP_A_SCL" ConstraintNetId="aca026d7-b3c8-4ecb-af71-9b55ffe41133" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="QSFP_A_SDA" ConstraintNetId="57172de0-3349-42de-83e6-5e8fec1261fc" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="QSFP_B_SCL" ConstraintNetId="1a27294a-a971-4f95-882a-7beec639fa09" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="QSFP_B_SDA" ConstraintNetId="8cd337f9-f00b-4c77-b58a-3da35661946e" />
   </FlattenedNetName2ConstraintNetId>
   <CNets>
     <CNet Id="021de858-16e7-4936-8b50-7ba5d97d63f0">
@@ -2241,6 +2265,126 @@
       <ConstraintSets />
       <ConstraintNodes />
     </CNet>
+    <CNet Id="107b73c2-31d2-42a3-a62b-3a2bb9b6f5ee">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="97f32eeb-cc10-4ffb-b90e-0339ae5fb116">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="df3271e7-3c7d-40af-bc9a-5b8b811987a9">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="cda1f049-da48-4ec7-937d-dd1965ac50a8">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="b02d6246-9525-4ba9-a3fa-bf421a482119">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="487135d5-a91d-4076-8fbc-ff26cb5fe7fb">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="1ef9df04-6f54-4f20-a631-772628bc3a68">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="3a738891-c1af-41ea-8a60-9489328c2dd1">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="4a99facf-f50b-41a6-89fe-ee9c8d333290">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="eb978303-2eb3-4067-b9d7-c3528bdeeb14">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="dda325d9-11c4-47a5-a053-0e32984572b5">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="e1702bc1-6bff-41bc-acf8-90d97ad121ef">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="8b6f4d74-f341-4805-8673-bcbd34799b6e">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="37a862a8-5e90-4c27-af01-9a7964f28fc7">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="56caa868-b591-4504-bc68-b97e3864e5a2">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="df20febc-c32e-4741-813c-9e29ab4c7694">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="84cf8971-6a8d-4abb-9839-7ce8cea682be">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="62e4afed-feb5-411b-ab5a-24a65bcb654f">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="27e92350-c2d5-4bab-968e-2d0147249253">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="728a75cb-ae62-49b7-ade4-ad2afe9e0b81">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="aca026d7-b3c8-4ecb-af71-9b55ffe41133">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="57172de0-3349-42de-83e6-5e8fec1261fc">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="1a27294a-a971-4f95-882a-7beec639fa09">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="8cd337f9-f00b-4c77-b58a-3da35661946e">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
   </CNets>
   <CNetClasses>
     <CNetClass Id="914f4af5-29ac-47bf-ae8e-96f35a957dae" Name="SE50" IsPredefined="false" Domain="0">
@@ -2298,6 +2442,24 @@
         <CNet Id="a0c804b8-6122-420d-9599-f8f47450cd6f" />
         <CNet Id="6e3f2c43-8452-45c3-910c-e1b0d01ec203" />
         <CNet Id="8725e783-9a00-4d18-a1f4-4e0b9499e8aa" />
+        <CNet Id="1ef9df04-6f54-4f20-a631-772628bc3a68" />
+        <CNet Id="3a738891-c1af-41ea-8a60-9489328c2dd1" />
+        <CNet Id="4a99facf-f50b-41a6-89fe-ee9c8d333290" />
+        <CNet Id="eb978303-2eb3-4067-b9d7-c3528bdeeb14" />
+        <CNet Id="dda325d9-11c4-47a5-a053-0e32984572b5" />
+        <CNet Id="e1702bc1-6bff-41bc-acf8-90d97ad121ef" />
+        <CNet Id="8b6f4d74-f341-4805-8673-bcbd34799b6e" />
+        <CNet Id="37a862a8-5e90-4c27-af01-9a7964f28fc7" />
+        <CNet Id="56caa868-b591-4504-bc68-b97e3864e5a2" />
+        <CNet Id="df20febc-c32e-4741-813c-9e29ab4c7694" />
+        <CNet Id="84cf8971-6a8d-4abb-9839-7ce8cea682be" />
+        <CNet Id="62e4afed-feb5-411b-ab5a-24a65bcb654f" />
+        <CNet Id="27e92350-c2d5-4bab-968e-2d0147249253" />
+        <CNet Id="728a75cb-ae62-49b7-ade4-ad2afe9e0b81" />
+        <CNet Id="aca026d7-b3c8-4ecb-af71-9b55ffe41133" />
+        <CNet Id="57172de0-3349-42de-83e6-5e8fec1261fc" />
+        <CNet Id="1a27294a-a971-4f95-882a-7beec639fa09" />
+        <CNet Id="8cd337f9-f00b-4c77-b58a-3da35661946e" />
       </CNets>
     </CNetClass>
     <CNetClass Id="b970e343-5b4b-495f-bbf1-6d1a4152c276" Name="DP100" IsPredefined="false" Domain="0">
@@ -2626,6 +2788,18 @@
         <CNet Id="b67c0237-0ace-48d6-9ebc-84c892a4fe4b" />
         <CNet Id="0fd57bf8-bee0-4b77-b5b6-9f919ff40579" />
         <CNet Id="8c0575ca-8637-4153-b25b-475917b3c6f7" />
+      </CNets>
+    </CNetClass>
+    <CNetClass Id="33b36be2-66f7-4397-bbf7-2ab55a4df9c3" Name="Power" IsPredefined="false" Domain="0">
+      <Constraints />
+      <ConstraintSets />
+      <CNets>
+        <CNet Id="107b73c2-31d2-42a3-a62b-3a2bb9b6f5ee" />
+        <CNet Id="97f32eeb-cc10-4ffb-b90e-0339ae5fb116" />
+        <CNet Id="df3271e7-3c7d-40af-bc9a-5b8b811987a9" />
+        <CNet Id="cda1f049-da48-4ec7-937d-dd1965ac50a8" />
+        <CNet Id="b02d6246-9525-4ba9-a3fa-bf421a482119" />
+        <CNet Id="487135d5-a91d-4076-8fbc-ff26cb5fe7fb" />
       </CNets>
     </CNetClass>
   </CNetClasses>
@@ -3604,15 +3778,15 @@
   <CXNetClasses />
   <ConstraintClearancesMatrix>
     <CCMFromScopes>
-      <CCMFromScope Id="04093fef-38a6-4ad4-b49e-9358cfd6c01b">
+      <CCMFromScope Id="671269d8-0c50-41c8-9e02-dba9d0f010cd">
         <ConstraintObject Id="00000000-0000-0000-0000-000000000000" />
         <CCMToScopes>
-          <CCMToScope Id="fb58d7e0-7379-455e-8551-6fe7e6c346d8" SetId="00000000-0000-0000-0000-000000000000">
+          <CCMToScope Id="626fc3c1-72bb-4fa1-9233-242982fd409a" SetId="00000000-0000-0000-0000-000000000000">
             <ConstraintObject Id="00000000-0000-0000-0000-000000000000" />
             <DefaultConstraintClearancesMatrixConstraint Id="00000000-0000-0000-0000-000000000000" Kind="0" Name="" Description="" Scope1="" Scope2="" Attributes="" LayerType="0" LayerId="0" />
             <CCMConstraints>
-              <CCMConstraint Id="f0137e20-787f-4b5f-982e-e9edc606440e" Kind="0" Name="Clearance_1" Description="Clearance Constraint [Generic clearance = 4mil, and 33 value(s) for objects]" Scope1="(ExistsOnLayer('Int1 (l2)') Or ExistsOnLayer('Int2 (L3)') Or ExistsOnLayer('Int3 (L4)') Or ExistsOnLayer('Int4 (L5)') Or ExistsOnLayer('Int5 (L6)') Or ExistsOnLayer('Int6 (L7)') Or ExistsOnLayer('Int7 (L8)') Or ExistsOnLayer('Int8 (L9)') Or ExistsOnLayer('Int9 (L10)') Or ExistsOnLayer('Int10 (L11)'))" Scope2="(ExistsOnLayer('Int1 (l2)') Or ExistsOnLayer('Int2 (L3)') Or ExistsOnLayer('Int3 (L4)') Or ExistsOnLayer('Int4 (L5)') Or ExistsOnLayer('Int5 (L6)') Or ExistsOnLayer('Int6 (L7)') Or ExistsOnLayer('Int7 (L8)') Or ExistsOnLayer('Int8 (L9)') Or ExistsOnLayer('Int9 (L10)') Or ExistsOnLayer('Int10 (L11)'))" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=4mil|GENERICCLEARANCE=4mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES=ClearanceObj_Arc-ClearanceObj_Arc:35000;ClearanceObj_Arc-ClearanceObj_Track:35000;ClearanceObj_Arc-ClearanceObj_SMDPad:35000;ClearanceObj_Arc-ClearanceObj_THPad:100000;ClearanceObj_Arc-ClearanceObj_Via:35000;ClearanceObj_Arc-ClearanceObj_Text:35000;ClearanceObj_Arc-ClearanceObj_Hole:100000;ClearanceObj_Track-ClearanceObj_Track:35000;ClearanceObj_Track-ClearanceObj_SMDPad:35000;ClearanceObj_Track-ClearanceObj_THPad:100000;ClearanceObj_Track-ClearanceObj_Via:35000;ClearanceObj_Track-ClearanceObj_Text:35000;ClearanceObj_Track-ClearanceObj_Hole:100000;ClearanceObj_SMDPad-ClearanceObj_SMDPad:35000;ClearanceObj_SMDPad-ClearanceObj_THPad:100000;ClearanceObj_SMDPad-ClearanceObj_Text:35000;ClearanceObj_SMDPad-ClearanceObj_Hole:100000;ClearanceObj_THPad-ClearanceObj_THPad:100000;ClearanceObj_THPad-ClearanceObj_Via:100000;ClearanceObj_THPad-ClearanceObj_Fill:100000;ClearanceObj_THPad-ClearanceObj_Poly:100000;ClearanceObj_THPad-ClearanceObj_Region:100000;ClearanceObj_THPad-ClearanceObj_Text:100000;ClearanceObj_THPad-ClearanceObj_Hole:100000;ClearanceObj_Via-ClearanceObj_Via:50000;ClearanceObj_Via-ClearanceObj_Text:35000;ClearanceObj_Via-ClearanceObj_Hole:100000;ClearanceObj_Fill-ClearanceObj_Hole:100000;ClearanceObj_Poly-ClearanceObj_Hole:100000;ClearanceObj_Region-ClearanceObj_Hole:100000;ClearanceObj_Text-ClearanceObj_Text:35000;ClearanceObj_Text-ClearanceObj_Hole:100000;ClearanceObj_Hole-ClearanceObj_Hole:100000" LayerType="2" LayerId="0" />
-              <CCMConstraint Id="4f0ff7a0-4e20-41d8-a621-d03e271326d4" Kind="0" Name="Clearance_2" Description="Clearance Constraint [Generic clearance = 4mil, and 33 value(s) for objects]" Scope1="(ExistsOnLayer('Top (L1)') Or ExistsOnLayer('Bot (L12)'))" Scope2="(ExistsOnLayer('Top (L1)') Or ExistsOnLayer('Bot (L12)'))" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=4mil|GENERICCLEARANCE=4mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES=ClearanceObj_Arc-ClearanceObj_Arc:35000;ClearanceObj_Arc-ClearanceObj_Track:35000;ClearanceObj_Arc-ClearanceObj_SMDPad:35000;ClearanceObj_Arc-ClearanceObj_THPad:100000;ClearanceObj_Arc-ClearanceObj_Via:35000;ClearanceObj_Arc-ClearanceObj_Text:35000;ClearanceObj_Arc-ClearanceObj_Hole:100000;ClearanceObj_Track-ClearanceObj_Track:35000;ClearanceObj_Track-ClearanceObj_SMDPad:35000;ClearanceObj_Track-ClearanceObj_THPad:100000;ClearanceObj_Track-ClearanceObj_Via:35000;ClearanceObj_Track-ClearanceObj_Text:35000;ClearanceObj_Track-ClearanceObj_Hole:100000;ClearanceObj_SMDPad-ClearanceObj_SMDPad:35000;ClearanceObj_SMDPad-ClearanceObj_THPad:100000;ClearanceObj_SMDPad-ClearanceObj_Text:35000;ClearanceObj_SMDPad-ClearanceObj_Hole:100000;ClearanceObj_THPad-ClearanceObj_THPad:100000;ClearanceObj_THPad-ClearanceObj_Via:100000;ClearanceObj_THPad-ClearanceObj_Fill:100000;ClearanceObj_THPad-ClearanceObj_Poly:100000;ClearanceObj_THPad-ClearanceObj_Region:100000;ClearanceObj_THPad-ClearanceObj_Text:100000;ClearanceObj_THPad-ClearanceObj_Hole:100000;ClearanceObj_Via-ClearanceObj_Via:50000;ClearanceObj_Via-ClearanceObj_Text:35000;ClearanceObj_Via-ClearanceObj_Hole:100000;ClearanceObj_Fill-ClearanceObj_Hole:100000;ClearanceObj_Poly-ClearanceObj_Hole:100000;ClearanceObj_Region-ClearanceObj_Hole:100000;ClearanceObj_Text-ClearanceObj_Text:35000;ClearanceObj_Text-ClearanceObj_Hole:100000;ClearanceObj_Hole-ClearanceObj_Hole:100000" LayerType="1" LayerId="0" />
+              <CCMConstraint Id="695430b1-77d5-457a-b2e6-f1236eb5c0e4" Kind="0" Name="Clearance_1" Description="Clearance Constraint [Generic clearance = 10mil, and 21 value(s) for objects]" Scope1="(ExistsOnLayer('Int1 (l2)') Or ExistsOnLayer('Int2 (L3)') Or ExistsOnLayer('Int3 (L4)') Or ExistsOnLayer('Int4 (L5)') Or ExistsOnLayer('Int5 (L6)') Or ExistsOnLayer('Int6 (L7)') Or ExistsOnLayer('Int7 (L8)') Or ExistsOnLayer('Int8 (L9)') Or ExistsOnLayer('Int9 (L10)') Or ExistsOnLayer('Int10 (L11)'))" Scope2="(ExistsOnLayer('Int1 (l2)') Or ExistsOnLayer('Int2 (L3)') Or ExistsOnLayer('Int3 (L4)') Or ExistsOnLayer('Int4 (L5)') Or ExistsOnLayer('Int5 (L6)') Or ExistsOnLayer('Int6 (L7)') Or ExistsOnLayer('Int7 (L8)') Or ExistsOnLayer('Int8 (L9)') Or ExistsOnLayer('Int9 (L10)') Or ExistsOnLayer('Int10 (L11)'))" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=10mil|GENERICCLEARANCE=10mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES=ClearanceObj_Arc-ClearanceObj_Arc:35000;ClearanceObj_Arc-ClearanceObj_Track:35000;ClearanceObj_Arc-ClearanceObj_SMDPad:35000;ClearanceObj_Arc-ClearanceObj_Via:35000;ClearanceObj_Arc-ClearanceObj_Text:35000;ClearanceObj_Track-ClearanceObj_Track:35000;ClearanceObj_Track-ClearanceObj_SMDPad:35000;ClearanceObj_Track-ClearanceObj_Via:35000;ClearanceObj_Track-ClearanceObj_Text:35000;ClearanceObj_SMDPad-ClearanceObj_SMDPad:35000;ClearanceObj_SMDPad-ClearanceObj_Via:40000;ClearanceObj_SMDPad-ClearanceObj_Fill:80000;ClearanceObj_SMDPad-ClearanceObj_Poly:80000;ClearanceObj_SMDPad-ClearanceObj_Region:80000;ClearanceObj_SMDPad-ClearanceObj_Text:35000;ClearanceObj_Via-ClearanceObj_Via:50000;ClearanceObj_Via-ClearanceObj_Fill:80000;ClearanceObj_Via-ClearanceObj_Poly:80000;ClearanceObj_Via-ClearanceObj_Region:80000;ClearanceObj_Via-ClearanceObj_Text:35000;ClearanceObj_Text-ClearanceObj_Text:35000" LayerType="2" LayerId="0" />
+              <CCMConstraint Id="81fb3577-3c67-45a1-bcb9-02c96921043e" Kind="0" Name="Clearance_2" Description="Clearance Constraint [Generic clearance = 10mil, and 21 value(s) for objects]" Scope1="(ExistsOnLayer('Top (L1)') Or ExistsOnLayer('Bot (L12)'))" Scope2="(ExistsOnLayer('Top (L1)') Or ExistsOnLayer('Bot (L12)'))" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=10mil|GENERICCLEARANCE=10mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES=ClearanceObj_Arc-ClearanceObj_Arc:35000;ClearanceObj_Arc-ClearanceObj_Track:35000;ClearanceObj_Arc-ClearanceObj_SMDPad:35000;ClearanceObj_Arc-ClearanceObj_Via:35000;ClearanceObj_Arc-ClearanceObj_Text:35000;ClearanceObj_Track-ClearanceObj_Track:35000;ClearanceObj_Track-ClearanceObj_SMDPad:35000;ClearanceObj_Track-ClearanceObj_Via:35000;ClearanceObj_Track-ClearanceObj_Text:35000;ClearanceObj_SMDPad-ClearanceObj_SMDPad:35000;ClearanceObj_SMDPad-ClearanceObj_Via:40000;ClearanceObj_SMDPad-ClearanceObj_Fill:80000;ClearanceObj_SMDPad-ClearanceObj_Poly:80000;ClearanceObj_SMDPad-ClearanceObj_Region:80000;ClearanceObj_SMDPad-ClearanceObj_Text:35000;ClearanceObj_Via-ClearanceObj_Via:50000;ClearanceObj_Via-ClearanceObj_Fill:80000;ClearanceObj_Via-ClearanceObj_Poly:80000;ClearanceObj_Via-ClearanceObj_Region:80000;ClearanceObj_Via-ClearanceObj_Text:35000;ClearanceObj_Text-ClearanceObj_Text:35000" LayerType="1" LayerId="0" />
             </CCMConstraints>
           </CCMToScope>
         </CCMToScopes>
