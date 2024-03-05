@@ -398,8 +398,8 @@
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="QSFP_A_SDA" ConstraintNetId="57172de0-3349-42de-83e6-5e8fec1261fc" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="QSFP_B_SCL" ConstraintNetId="1a27294a-a971-4f95-882a-7beec639fa09" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="QSFP_B_SDA" ConstraintNetId="8cd337f9-f00b-4c77-b58a-3da35661946e" />
-    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="HR_VRP" ConstraintNetId="b28c3727-82df-4ca4-847c-5c8f1eeb0bd4" />
-    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="HR_VRn" ConstraintNetId="d5ebeb8a-be50-4791-9e2a-d73caad223f3" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="DCI_VRP" ConstraintNetId="b28c3727-82df-4ca4-847c-5c8f1eeb0bd4" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="DCI_VRN" ConstraintNetId="d5ebeb8a-be50-4791-9e2a-d73caad223f3" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="2V5" ConstraintNetId="4e75a7ce-e7ae-4c03-8db3-7b07ef314f30" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="GTX_CAL_P" ConstraintNetId="8c12a59c-f7b7-4915-882b-66ac74ed2fc3" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="GTX_CAL_N" ConstraintNetId="c839b1ff-df3f-4cc0-a443-5c0b6310cb45" />
