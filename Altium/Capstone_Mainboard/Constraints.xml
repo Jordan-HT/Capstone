@@ -405,6 +405,10 @@
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="GTX_CAL_N" ConstraintNetId="c839b1ff-df3f-4cc0-a443-5c0b6310cb45" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="GTX_REFCLK_DC_N" ConstraintNetId="0bcda9b9-5698-47cd-8241-a6e090440b27" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="GTX_REFCLK_DC_P" ConstraintNetId="189d3565-57cd-4f09-8aa2-890ccd823a16" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="1V0_GTX" ConstraintNetId="eba96d81-b10e-43af-95dd-514da04957ab" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="ND" ConstraintNetId="25d33f65-f7ca-4025-a85b-0424279ef603" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="1V2_GTX" ConstraintNetId="a85b1c06-5223-4193-997c-5fe83b09944f" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="1V8_GTX" ConstraintNetId="2d2f7fd7-3e15-40c6-a1f3-07d7db00605b" />
   </FlattenedNetName2ConstraintNetId>
   <CNets>
     <CNet Id="021de858-16e7-4936-8b50-7ba5d97d63f0">
@@ -2423,6 +2427,26 @@
       <ConstraintNodes />
     </CNet>
     <CNet Id="189d3565-57cd-4f09-8aa2-890ccd823a16">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="eba96d81-b10e-43af-95dd-514da04957ab">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="25d33f65-f7ca-4025-a85b-0424279ef603">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="a85b1c06-5223-4193-997c-5fe83b09944f">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="2d2f7fd7-3e15-40c6-a1f3-07d7db00605b">
       <Constraints />
       <ConstraintSets />
       <ConstraintNodes />
