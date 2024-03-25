@@ -322,7 +322,7 @@ GenerateClassCluster=0
 DocumentUniqueId=BAMEMQXU
 
 [Document17]
-DocumentPath=Flash_FPGA.SchDoc
+DocumentPath=PMIC_GTXs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -336,7 +336,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=WQUNGLJC
+DocumentUniqueId=FFSFTNZF
 
 [Document18]
 DocumentPath=FPGA_Power.SchDoc
@@ -424,7 +424,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WYJIHBNV
 
 [Document23]
-DocumentPath=PMIC_GTXs.SchDoc
+DocumentPath=Flash_FPGA.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -438,7 +438,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=FFSFTNZF
+DocumentUniqueId=WQUNGLJC
 
 [Document24]
 DocumentPath=Miscellaneous_Functions.SchDoc
