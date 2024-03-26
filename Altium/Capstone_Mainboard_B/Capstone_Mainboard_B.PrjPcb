@@ -305,23 +305,6 @@ GenerateClassCluster=0
 DocumentUniqueId=YCBZLTQP
 
 [Document16]
-DocumentPath=PMIC_1V2_3V3AUX.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=13
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BAMEMQXU
-
-[Document17]
 DocumentPath=PMIC_GTXs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -337,6 +320,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FFSFTNZF
+
+[Document17]
+DocumentPath=PMIC_3V3AUX_PWR-DEF.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=13
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BAMEMQXU
 
 [Document18]
 DocumentPath=FPGA_Power.SchDoc
