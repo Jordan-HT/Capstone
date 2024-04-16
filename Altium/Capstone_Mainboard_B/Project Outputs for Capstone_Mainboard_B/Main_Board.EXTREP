@@ -1,0 +1,29 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: Main_Board.GBR   4/16/2024  4:15:20 AM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                (L1) Top                                
+.G1                 (L2) Inner 1                            
+.G2                 (L3) Inner 2                            
+.G3                 (L4) Inner 3                            
+.G4                 (L5) Inner 4                            
+.G5                 (L6) Inner 5                            
+.G6                 (L7) Inner 6                            
+.G7                 (L8) Inner 7                            
+.G8                 (L9) Inner 8                            
+.G9                 (L10) Inner 9                           
+.G10                (L11) Inner 10                          
+.GBL                (L12) Bottom                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM4                Board Outline                           
+.GM                 Profile                                 
+------------------------------------------------------------------------------------------

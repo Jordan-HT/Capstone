@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: E:\Git\Capstone\Altium\Capstone_Mainboard_B\Main_Board.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=main_board-roundholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=main_board-slotholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,gbl
