@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+E:/Git/Capstone/Software/RP2040/build/CMakeFiles/ELF2UF2Build
+E:/Git/Capstone/Software/RP2040/build/CMakeFiles/ELF2UF2Build.rule
+E:/Git/Capstone/Software/RP2040/build/CMakeFiles/ELF2UF2Build-complete.rule
+E:/Git/Capstone/Software/RP2040/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+E:/Git/Capstone/Software/RP2040/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+E:/Git/Capstone/Software/RP2040/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+E:/Git/Capstone/Software/RP2040/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+E:/Git/Capstone/Software/RP2040/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+E:/Git/Capstone/Software/RP2040/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+E:/Git/Capstone/Software/RP2040/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
