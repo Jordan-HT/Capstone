@@ -474,6 +474,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UMGDVNYV
 
+[Document26]
+DocumentPath=Capstone_Mainboard_B.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Capstone_Mainboard_B\Capstone_Mainboard_B_BOM.xlsx
 DItemRevisionGUID=
@@ -593,7 +610,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_SmartPDF]
-AutoOpenFile=-1
+AutoOpenFile=0
 AutoOpenOutJob=0
 
 [Generic_SmartPDFSettings]
@@ -604,10 +621,10 @@ AddNetPins=-1
 AddNetNetLabels=-1
 AddNetPorts=-1
 ShowComponentParameters=-1
-GlobalBookmarks=-1
-ExportBOM=-1
-TemplateFilename=Board Stack Report.XLT
-TemplateStoreRelative=-1
+GlobalBookmarks=0
+ExportBOM=0
+TemplateFilename=E:\Git\Capstone\Altium\Capstone_Mainboard_B\Board Stack Report.XLT
+TemplateStoreRelative=0
 PCB_PrintColor=1
 SCH_PrintColor=0
 PrintQuality=-4
@@ -628,7 +645,7 @@ SCH_ExpandPorts=0
 SCH_ExpandSheetNumber=-1
 SCH_ExpandDocumentNumber=-1
 SCH_HasExpandLogicalToPhysicalSheets=-1
-SaveSettingsToOutJob=0
+SaveSettingsToOutJob=-1
 
 [OutputGroup1]
 Name=Netlist Outputs

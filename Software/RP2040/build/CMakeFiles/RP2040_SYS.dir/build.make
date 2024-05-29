@@ -1023,10 +1023,24 @@ CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
 	C:\VSARM\armcc\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c -o CMakeFiles\RP2040_SYS.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
 
+CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/RP2040_SYS.dir/flags.make
+CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
+CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/RP2040_SYS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Git\Capstone\Software\RP2040\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	C:\VSARM\armcc\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles\RP2040_SYS.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj.d -o CMakeFiles\RP2040_SYS.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c
+
+CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i"
+	C:\VSARM\armcc\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c > CMakeFiles\RP2040_SYS.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.i
+
+CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s"
+	C:\VSARM\armcc\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c -o CMakeFiles\RP2040_SYS.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.s
+
 CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/RP2040_SYS.dir/flags.make
 CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/RP2040_SYS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Git\Capstone\Software\RP2040\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Git\Capstone\Software\RP2040\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	C:\VSARM\armcc\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles\RP2040_SYS.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj.d -o CMakeFiles\RP2040_SYS.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c
 
 CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -1036,6 +1050,20 @@ CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c
 CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
 	C:\VSARM\armcc\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c -o CMakeFiles\RP2040_SYS.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s
+
+CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/RP2040_SYS.dir/flags.make
+CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/RP2040_SYS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Git\Capstone\Software\RP2040\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	C:\VSARM\armcc\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles\RP2040_SYS.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj.d -o CMakeFiles\RP2040_SYS.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c
+
+CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
+	C:\VSARM\armcc\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c > CMakeFiles\RP2040_SYS.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i
+
+CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
+	C:\VSARM\armcc\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c -o CMakeFiles\RP2040_SYS.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.s
 
 # Object files for target RP2040_SYS
 RP2040_SYS_OBJECTS = \
@@ -1108,7 +1136,9 @@ RP2040_SYS_OBJECTS = \
 "CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
 "CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
 "CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
-"CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+"CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj" \
+"CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" \
+"CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 
 # External object files for target RP2040_SYS
 RP2040_SYS_EXTERNAL_OBJECTS =
@@ -1182,12 +1212,14 @@ RP2040_SYS.elf: CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb
 RP2040_SYS.elf: CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 RP2040_SYS.elf: CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 RP2040_SYS.elf: CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+RP2040_SYS.elf: CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 RP2040_SYS.elf: CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+RP2040_SYS.elf: CMakeFiles/RP2040_SYS.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 RP2040_SYS.elf: CMakeFiles/RP2040_SYS.dir/build.make
 RP2040_SYS.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 RP2040_SYS.elf: CMakeFiles/RP2040_SYS.dir/objects1.rsp
 RP2040_SYS.elf: CMakeFiles/RP2040_SYS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Git\Capstone\Software\RP2040\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking CXX executable RP2040_SYS.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Git\Capstone\Software\RP2040\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking CXX executable RP2040_SYS.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RP2040_SYS.dir\link.txt --verbose=$(VERBOSE)
 	"C:\VSARM\armcc\13.2 Rel1\bin\arm-none-eabi-objcopy.exe" -Oihex E:/Git/Capstone/Software/RP2040/build/RP2040_SYS.elf RP2040_SYS.hex
 	"C:\VSARM\armcc\13.2 Rel1\bin\arm-none-eabi-objcopy.exe" -Obinary E:/Git/Capstone/Software/RP2040/build/RP2040_SYS.elf RP2040_SYS.bin

@@ -24,8 +24,10 @@ pico_add_extra_outputs(${PROJECT_NAME})
 target_link_libraries(${PROJECT_NAME} 
     pico_stdlib
     pico_time
+    pico_multicore
     hardware_i2c
     hardware_irq
+    hardware_adc
 )
 
 # Enable usb output, disable uart output

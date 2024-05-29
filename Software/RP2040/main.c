@@ -1,11 +1,24 @@
 // Capstone Mainboard Power Supply Code V0.3
 // Jordan Harris-Toovy, May 2024
 
+/* 
+*  FPGA Power Sequencing Requirements:
+*  Group A: (VCCINT, VCCBRAM, VMGTAVCC) [1V0, 1V0GTX]
+*  Group B: (VCCAUX, VMGTAVTT, VMGTVCCAUX, VMGTAVTTRCAL, VCCADC, VREFP, VCCAUX_IO, VCCO_32/33/34, VCC_FLASH_IO, VCC_CONN_IO) [1V2GTX, 1V8, 1V8GTX]
+*  Group C: (VCCO_12/14, VCCO_13/15/16, VCC_QSFP) [2V5, 3V3]
+*
+*  Power uo: A → B → C
+*  Power down: C → B → A
+*/ 
+
 /* Libraries */
 #include <stdio.h>
 #include <time.h>
+#include <pico/multicore.h>
 #include <pico/stdlib.h>
 #include <hardware/i2c.h>
+#include <hardware/irq.h>
+#include <hardware/adc.h>
 
 /* Turn dev mode on or off */
 #define DEV_MODE true           // TODO: REMOVE: CONV TO WHEN USB CONN
@@ -34,17 +47,17 @@ static const uint8_t PIMC_1V0GTX_PG         = 6;            // Power good signal
 static const uint8_t PIMC_1V2GTX_PG         = 7;            // Power good signal from the 1.2V GTX transceiver linear reg [pulled up externally]
 
 // FPGA Control
-static const uint8_t FPGA_CONFDONE          = 19;           // FPGA Configuration done indicator: high when finished !!! TODO: VALIDATE THIS !!!
-static const uint8_t FPGA_INIT_CRCERR       = 20;           // FPGA Initialization done or CRC error signal: !!! TODO: ADD THIS !!!
-static const uint8_t FPGA_NRESET            = 21;           // FPGA Reset (active low) signal: !!! TODO: ADD THIS !!!
+static const uint8_t FPGA_CONFDONE          = 19;           // FPGA Configuration done indicator: [Output] high indicates completion of the configuration sequence
+static const uint8_t FPGA_INIT_CRCERR       = 20;           // FPGA Initialization done or CRC error signal: [Bidirectional, pulled up externally] Low when in initializing/reset state, or when a configuration error occurs. Hold low to stall the power-on configuration sequence.
+static const uint8_t FPGA_NRESET            = 21;           // FPGA Reset (active low) signal: [Input, pulled up externally] Pulse (or hold) low to reset the FPGA. Holding low does not stop the configuration process.
 
 // Indication
-static const uint8_t IND_1_GREEN            = 23;           // TODO: Change names and add descriptions <------------------------------------------------------------
-static const uint8_t IND_1_ORANGE           = 24;           // 
-static const uint8_t IND_2_GREEN            = 25;           // 
-static const uint8_t IND_2_ORANGE           = 26;           // 
-static const uint8_t IND_3_GREEN            = 27;           // 
-static const uint8_t IND_3_ORANGE           = 28;           // 
+static const uint8_t IND_PWR_STATUS_GREEN   = 23;           // Indicator 1-Green: PMIC Initialization status {Blinking: Starting, Solid: Done}
+static const uint8_t IND_PWR_STATUS_ORANGE  = 24;           // Indicator 1-Orange: PMIC Output status {Blinking: Failure, Solid: Overtemperature}
+static const uint8_t IND_FPGA_IMG_GREEN     = 25;           // Indicator 2-Green: FPGA Boot process {Blinking: In progress, Solid: Successful}
+static const uint8_t IND_FPGA_IMG_ORANGE    = 26;           // Indicator 2-Orange: FPGA Boot error {Blinking: CRC Error, Solid: General failure}
+static const uint8_t IND_UC_STATUS_GREEN    = 27;           // Indicator 3-Green: Microcontroller boot status A {Blinking: USB Connected, Solid: Successful}
+static const uint8_t IND_UC_STATUS_ORANGE   = 28;           // Indicator 3-Orange: Microcontroller boot status B {Blinking: Boot or PMIC comm failure, Solid: Booting}
 
 // Misc
 static const uint8_t MASTER_PWR_GOOD        = 0;            // Global power status output [pulled up externally]
